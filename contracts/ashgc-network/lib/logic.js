@@ -19,7 +19,7 @@
 var NS = 'ors.ashudg';
 /**
  * createProjectPledge
- * @param {org.global.citizens.net.CreateProjectPledge} createProjectPledge
+ * @param {ors.ashudg.CreateProjectPledge} createProjectPledge
  * @transaction
  */
 function createProjectPledge(txParams) {
@@ -50,7 +50,7 @@ function createProjectPledge(txParams) {
 }
 /**
  * SendPledgeToGlobalCitizen
- * @param {org.global.citizens.net.SendPledgeToGlobalCitizen} sendPledgeToGlobalCitizen
+ * @param {ors.ashudg.SendPledgeToGlobalCitizen} sendPledgeToGlobalCitizen
  * @transaction
  */
 function sendPledgeToGlobalCitizen(txParams) {
@@ -70,7 +70,7 @@ function sendPledgeToGlobalCitizen(txParams) {
 }
 /**
  * SendPledgeToGovOrg
- * @param {org.global.citizens.net.SendPledgeToGovOrg} sendPledgeToGovOrg
+ * @param {ors.ashudg.SendPledgeToGovOrg} sendPledgeToGovOrg
  * @transaction
  */
 function sendPledgeToGovOrg(txParams) {
@@ -92,7 +92,7 @@ function sendPledgeToGovOrg(txParams) {
 }
 /**
  * UpdatePledge
- * @param {org.global.citizens.net.UpdatePledge} updatePledge
+ * @param {ors.ashudg.UpdatePledge} updatePledge
  * @transaction
  */
 function updatePledge(txParams) {
@@ -135,7 +135,7 @@ function updatePledge(txParams) {
 }
 /**
  * TransferFunds
- * @param {org.global.citizens.net.TransferFunds} transferFunds
+ * @param {ors.ashudg.TransferFunds} transferFunds
  * @transaction
  */
 function transferFunds(txParams) {
