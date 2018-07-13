@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "description": "ash gc",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/ashgc-network.bna",
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/ashgc-network.bna"
   },
   "keywords": [
     "composer",
